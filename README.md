@@ -2,6 +2,12 @@
 
 This project is part of the Scrimba course that teaches you how to build a mobile app using JavaScript, HTML, and CSS. The app allows users to add items to a shopping list, which is stored in a Firebase database.
 
+## Visual Design
+
+Below is a visual representation of the website page:
+
+![Home](Index.png)
+
 ## Getting Started
 
 To run this project locally, follow these steps:
