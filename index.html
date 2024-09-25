@@ -1,67 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Add to Cart</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
-      rel="stylesheet"
-    /> -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Ultra&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <!-- <script
-      type="module"
-      src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"
-    ></script>
-    <script
-      type="module"
-      src="https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js"
-    ></script> -->
-  </head>
-  <body>
-    <!-- <div class="container">
-      <h1>Reel Time</h1>
-      <div class="field">
-        <input type="text" id="input-field" placeholder="Pulp Fiction" />
-        <button id="add-button">+</button>
-      </div>
-    </div> -->
 
-    <!--------------------------------------------------------------------->
+<head>
+  <title>Add to Cart</title> <!-- Title of the webpage displayed in the browser tab -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsive design for mobile devices -->
 
-    <!-- <div class="container">
-      <h1>bestreads</h1>
-      <ul id="books"></ul>
-    </div> -->
+  <!-- Preconnect to Google Fonts for faster loading of fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Cross-origin attribute for better performance -->
 
-    <!--------------------------------------------------------------------->
+  <!-- Link to Google Fonts for specific font styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Ultra&display=swap" rel="stylesheet" />
 
-    <!-- <div class="container">
-      <h1>The Scrimba Times</h1>
-      <div id="stories"></div>
-    </div> -->
+  <!-- Link to the external CSS file for styling -->
+  <link rel="stylesheet" href="index.css" />
+</head>
 
-    <!--------------------------------------------------------------------->
+<body>
 
-    <!-- <div class="container">
-      <h1 id="click"><span id="counter">0</span> cookies</h1>
-      <img src="Teddy.webp" />
-    </div> -->
+  <div class="container"> <!-- Main container for the content -->
+    <img src="Teddy.webp" /> <!-- Image displayed on the page -->
 
-    <!--------------------------------------------------------------------->
+    <!-- Input field for entering item names -->
+    <input type="text" id="input-field" placeholder="Bread" />
 
-    <div class="container">
-      <img src="Teddy.webp" />
-      <input type="text" id="input-field" placeholder="Bread" />
-      <button id="add-button">Add to cart</button>
-      <ul id="shopping-list"></ul>
-    </div>
+    <!-- Button to add items to the shopping list -->
+    <button id="add-button">Add to cart</button>
 
-    <script src="index.js" type="module"></script>
-  </body>
+    <!-- Unordered list to display the shopping list items -->
+    <ul id="shopping-list"></ul>
+  </div>
+
+  <!-- Link to the external JavaScript file, using module type for ES6 modules -->
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
