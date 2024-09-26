@@ -15,13 +15,13 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/BhoomiGohil/javascript-scrimba-learn-javascript-build-a-mobile-app-shopping-list.git
+git clone https://github.com/BhoomiGohil/Scrimba-JavaScriptCourseShoppingList.git
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd javascript-scrimba-learn-javascript-build-a-mobile-app-shopping-list
+cd Scrimba-JavaScriptCourseShoppingList
 ```
 
 3. **Open the `index.html` file in your web browser.**
