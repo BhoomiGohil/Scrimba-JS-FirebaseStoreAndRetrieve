@@ -1,4 +1,4 @@
-# Shopping List App that store and grab Data from Firebase
+# Shopping List App that store and retrieve Data from Firebase Database
 
 This project is part of the Scrimba course that teaches you how to build a mobile app using JavaScript, HTML, and CSS. The app allows users to add items to a shopping list, which is stored in a Firebase database.
 
@@ -15,13 +15,13 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/BhoomiGohil/Scrimba-JS-FirebaseDataStorage.git
+git clone https://github.com/BhoomiGohil/Scrimba-JS-FirebaseStoreAndRetrieve.git
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd Scrimba-JS-FirebaseDataStorage
+cd Scrimba-JS-FirebaseStoreAndRetrieve
 ```
 
 3. **Open the `index.html` file in your web browser.**
